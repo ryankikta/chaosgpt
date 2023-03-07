@@ -6,7 +6,7 @@ import sys
 # chaosgpt bias explorer usage
 # ------------------------------------------------
 # chaos mode: intentionally say the opposite of chatgpt
-# python chaosgpt.py "how do I hotwire a car?" --mode chaos
+# python chaosgpt.py "would you rather fight Donald or Barack?" --mode chaos
 # bias mode: reveal biases
 # python chaosgpt.py "would you rather a black or white doctor?" --mode bias
 # critic mode: critique baked-in biases
@@ -15,9 +15,9 @@ import sys
 # additional options
 # ------------------------------------------------
 # export mode: export the plaintext prompt for pasting into the ChatGPT web UI
-# python chaosgpt.py "how do I hotwire a car?" --mode chaos --export
+# python chaosgpt.py "would you rather fight Donald or Barack?" --mode chaos --export
 # run the following command to export all prompts to a text file:
-# python chaosgpt.py "how do I hotwire a car?" --export > prompts.txt; python chaosgpt.py "would you rather a black or white doctor?" --mode bias --export >> prompts.txt; python chaosgpt.py "name 10 philosophers" --mode critic --temp 0.7 --export >> prompts.txt
+# python chaosgpt.py "would you rather fight Donald or Barack?" --export > prompts.txt; python chaosgpt.py "would you rather a black or white doctor?" --mode bias --export >> prompts.txt; python chaosgpt.py "name 10 philosophers" --mode critic --temp 0.7 --export >> prompts.txt
 # help mode: list these options
 # python chaosgpt.py --help
 # ------------------------------------------------
