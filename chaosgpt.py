@@ -36,7 +36,7 @@ headers = {                                                                     
 }
 
 if args.temp < 0 or args.temp > 2:                                                                                  # check if temperature is between 0.0 and 2.0
-        print(f"Temperature must between 0.0 and 2")
+        print(f"Temperature must between 0.0 and 2.0")
         sys.exit(1)
 
 modes = {                                                                                                           # define each MODE's respective natural language prompt
